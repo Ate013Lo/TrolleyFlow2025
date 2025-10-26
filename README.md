@@ -81,11 +81,11 @@ Each frame represents a key step in the operator’s interaction.
 
 ## Frame 1 – Login & Airline Selection
 
-![Imagen de WhatsApp 2025-10-26 a las 05 56 57_52828037](https://github.com/user-attachments/assets/4c2c377d-97e1-43e3-944f-ae6cbecb764b)
+![Imagen de WhatsApp 2025-10-26 a las 06 06 22_ee4d488e](https://github.com/user-attachments/assets/8f880ccd-4abf-44e7-8477-873999c95f07)
 
 Explanation:
 The Pick-and-packer logs into the system and selects their assigned airline.
-The interface automatically loads the airline’s policies and assigned flights.
+
 
 ## Frame 2 – Flight Overview & Inventory Load
 
@@ -93,25 +93,24 @@ The interface automatically loads the airline’s policies and assigned flights.
 
 Explanation:
 The operator views the upcoming flight list and the expected bottle inventory.
-They can confirm quantities and check compliance warnings.
+The interface automatically loads the airline’s policies and assigned flights.
 
-## Frame 3 – Bottle Scanning
+## Frame 3 – Flight Operations Screen
 
 ![Imagen de WhatsApp 2025-10-26 a las 06 19 07_20c648ea](https://github.com/user-attachments/assets/7245032c-ee05-41d6-97da-c8675bf36a8b)
+
+Explanation:
+This screen represents the central operational interface of TrolleyFlow, designed for GateGroup operators and pick-and-packers to monitor and make quick decisions about onboard alcohol supplies.
+
+## Frame 4 – Bottle Scanning
+
+![Imagen de WhatsApp 2025-10-26 a las 06 21 46_56860aea](https://github.com/user-attachments/assets/885750c9-bddc-4820-b58c-b43fd3fd192a)
 
 Explanation:
 Each bottle is scanned.
 The system identifies whether the bottle should be reused, refilled, or discarded based on its current level and reuse policy.
 
-## Frame 4 – AI Decision Suggestion
-
-![Imagen de WhatsApp 2025-10-26 a las 06 21 46_56860aea](https://github.com/user-attachments/assets/885750c9-bddc-4820-b58c-b43fd3fd192a)
-
-Explanation:
-The AI system provides the recommended action instantly, reducing manual judgment.
-Pick-and-packers confirm or override decisions with a single tap.
-
-## Frame 5 – Summary & Sync
+## Frame 5 – AI Forecasting
 
 ![Imagen de WhatsApp 2025-10-26 a las 06 21 46_820beccc](https://github.com/user-attachments/assets/47bf9bca-1554-4914-b6c9-8ef51653a2af)
 
