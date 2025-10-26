@@ -38,10 +38,10 @@ It minimizes waste, ensures regulatory compliance, and transforms manual inspect
 
 ---
 
-## ERD
 
 ## Clone the repository
 git clone https://github.com/Ate013Lo/TrolleyFlow2025.git
+
 cd TrolleyFlow2025
 
 
