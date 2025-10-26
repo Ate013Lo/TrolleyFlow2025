@@ -154,5 +154,59 @@ Reports are generated for future planning and cost optimization. And
 
 You can access the interactive Figma prototype here:
 
+## Assumptions
+
+To build the TrolleyFlow system and forecasting logic, several operational and data assumptions were made based on the available information and realistic conditions observed in GateGroup’s processes.
+
+---
+
+### 1. Airline Assignment and Staff Rotation
+We assumed that each **Pick-and-packer** is primarily assigned to handle **one or two airline lines** at most.  
+Typically, one or two employees are responsible for preparing trolleys for a single airline within an airport.  
+However, staff rotation may occur occasionally to help employees gain experience with different airline procedures and policies.
+
+---
+
+### 2. Policy and Destination-Based Decision Rules
+In our latest dataset, we defined specific **conditional rules** for bottle-handling decisions:
+- If the **destination** is a country with strict alcohol regulations (e.g., **Hong Kong** or the **United States**), the bottle is **automatically discarded**, regardless of its remaining content.  
+- Each airline also has defined tolerance thresholds based on the **alcohol percentage remaining** in the bottle.  
+  For example, if the leftover content falls below the allowed threshold, the system recommends **reuse or refill**, otherwise **discard**.
+- These decision trees assume that airlines are already aware of their **regulatory compliance limits**, and the system automates the decision accordingly.
+
+---
+
+### 3. Class-Based Bottle Distribution
+To simulate realistic onboard inventory, we assumed bottle distribution according to **aircraft class segmentation**:
+- **First Class (10%)** — includes trolleys with **1-liter wine bottles**.  
+- **Business / Premium Economy (20%)** — primarily contains **small spirits bottles** and mixed beverages.  
+- **Economy Class (70%)** — standard service area, mainly stocked with miniatures and economy-serving bottles.
+
+This class-based ratio (10%-20%-70%) reflects the typical passenger distribution and directly influences the **forecasting API** when estimating total bottle quantities required per flight.
+
+---
+
+### 4. Pick-and-Packer Operation Assumptions
+From a human resource perspective, we assumed that:
+- The Pick-and-packer is equipped with a **tablet interface** to operate nearby the trolley.  
+- The system allows for **scanning each bottle directly from the tablet**, which then displays the automated action (reuse, discard, refill).  
+- The employee has sufficient **training and capacity** to execute this process without assistance.
+
+This setup minimizes physical effort and enables faster, more consistent operations across different flight preparations.
+
+---
+
+### 5. Forecasting and Data Limitations
+The forecasting API was developed using **GateGroup’s provided datasets**, which are relatively **small in size**.  
+Because the dataset does not qualify as *Big Data*, the machine learning model operates on **limited sample variance**, meaning that:
+- The predictive accuracy is not yet fully optimized.  
+- The model still provides reliable short-term forecasts based on **historical patterns of bottle usage per flight**.  
+- The API is designed to scale as more data becomes available, improving performance over time.
+
+---
+
+**Summary:**  
+These assumptions form the foundation for our decision logic, forecasting model, and interface behavior.  
+They ensure that TrolleyFlow remains **realistic, scalable, and adaptable** to real-world airline operations.
 
 
