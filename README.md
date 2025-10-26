@@ -65,6 +65,3 @@ cd TrolleyFlow2025
 | **Atenea López Corona** | AI Forecasting |
 
 
-
-![Imagen de WhatsApp 2025-10-25 a las 22 49 19_facf89b9](https://github.com/user-attachments/assets/cf6cba1e-111f-4a4b-abd6-84524110d180)
-
