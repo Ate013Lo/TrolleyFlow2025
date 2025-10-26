@@ -1,0 +1,15 @@
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\bin\Debug\netstandard2.0\gategroup_troleyflow.deps.json
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\bin\Debug\netstandard2.0\gategroup_troleyflow.dll
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\bin\Debug\netstandard2.0\ref\gategroup_troleyflow.dll
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\bin\Debug\netstandard2.0\gategroup_troleyflow.pdb
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.csproj.AssemblyReference.cache
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.AssemblyInfoInputs.cache
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.AssemblyInfo.cs
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.csproj.CoreCompileInputs.cache
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.dll
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\refint\gategroup_troleyflow.dll
+C:\Users\mayzi\source\repos\gategroup_troleyflow\gategroup_troleyflow\gategroup_troleyflow\obj\Debug\netstandard2.0\gategroup_troleyflow.pdb

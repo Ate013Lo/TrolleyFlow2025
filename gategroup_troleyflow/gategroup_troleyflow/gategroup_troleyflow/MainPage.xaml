@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="gategroup_troleyflow.MainPage">
+
+    <StackLayout Padding="10">
+        <Label Text="Formulario de Chequeo de Bebidas"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <Label Text="Permitir botella abierta:" />
+        <Entry Placeholder="Si=0/No=1" x:Name="allowed" Keyboard="Numeric"></Entry>
+        <Label Text="Estado de la botella:" />
+        <Entry Placeholder="Cerrada=0/Abierta=1" x:Name="sealed" Keyboard="Numeric"></Entry>
+
+        <Label Text="Porcentaje de contenido:" />
+        <Entry x:Name="percentEntry" Keyboard="Numeric" />
+
+        <Label Text="Nivel de limpieza (0 a 1):" />
+        <Entry x:Name="cleanEntry" Keyboard="Numeric" />
+
+        <Button Text="Evaluar Bebida"
+                Clicked="OnEvaluateClicked" />
+
+        <Label Text="Resultado:"
+               FontSize="Medium"
+               HorizontalOptions="Center" />
+        <Label x:Name="resultLabel" Text="" />
+    </StackLayout>
+
+</ContentPage>
