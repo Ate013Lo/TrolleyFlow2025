@@ -68,12 +68,6 @@ cd TrolleyFlow2025
 
 ---
 
-## Entity Relationship Diagram (ERD)
-
-Below is the entity-relationship model that structures the **TrolleyFlow** data ecosystem.  
-It represents how airlines, bottles, policies, and pick-and-pack decisions are connected.
-
-
 # Figma Prototype – User Flow (Pick-and-Pack Journey)
 
 The following section presents the visual flow of TrolleyFlow’s Pick-and-pack interface, built in Figma.
