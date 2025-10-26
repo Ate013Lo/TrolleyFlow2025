@@ -74,11 +74,6 @@ Below is the entity-relationship model that structures the **TrolleyFlow** data 
 It represents how airlines, bottles, policies, and pick-and-pack decisions are connected.
 
 
-### ERD Overview
-
-
-
-
 # Figma Prototype – User Flow (Pick-and-Pack Journey)
 
 The following section presents the visual flow of TrolleyFlow’s Pick-and-pack interface, built in Figma.
@@ -86,10 +81,7 @@ Each frame represents a key step in the operator’s interaction.
 
 ## Frame 1 – Login & Airline Selection
 
-(Insert screenshot of Frame 1)
-
-![Frame 1 - Login & Airline Selection](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame1.png)
-
+![Imagen de WhatsApp 2025-10-26 a las 05 56 57_52828037](https://github.com/user-attachments/assets/4c2c377d-97e1-43e3-944f-ae6cbecb764b)
 
 Explanation:
 The Pick-and-packer logs into the system and selects their assigned airline.
@@ -97,10 +89,7 @@ The interface automatically loads the airline’s policies and assigned flights.
 
 ## Frame 2 – Flight Overview & Inventory Load
 
-(Insert screenshot of Frame 2)
-
-![Frame 2 - Flight Overview](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame2.png)
-
+![Imagen de WhatsApp 2025-10-26 a las 06 08 32_51420382](https://github.com/user-attachments/assets/de392a7a-de08-4092-8af5-62f6058aed2f)
 
 Explanation:
 The operator views the upcoming flight list and the expected bottle inventory.
@@ -108,10 +97,7 @@ They can confirm quantities and check compliance warnings.
 
 ## Frame 3 – Bottle Scanning
 
-(Insert screenshot of Frame 3)
-
-![Frame 3 - Bottle Scanning](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame3.png)
-
+![Imagen de WhatsApp 2025-10-26 a las 06 19 07_20c648ea](https://github.com/user-attachments/assets/7245032c-ee05-41d6-97da-c8675bf36a8b)
 
 Explanation:
 Each bottle is scanned.
@@ -119,10 +105,7 @@ The system identifies whether the bottle should be reused, refilled, or discarde
 
 ## Frame 4 – AI Decision Suggestion
 
-(Insert screenshot of Frame 4)
-
-![Frame 4 - AI Suggestion](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame4.png)
-
+![Imagen de WhatsApp 2025-10-26 a las 06 21 46_56860aea](https://github.com/user-attachments/assets/885750c9-bddc-4820-b58c-b43fd3fd192a)
 
 Explanation:
 The AI system provides the recommended action instantly, reducing manual judgment.
@@ -130,21 +113,7 @@ Pick-and-packers confirm or override decisions with a single tap.
 
 ## Frame 5 – Summary & Sync
 
-(Insert screenshot of Frame 5)
-
-![Frame 5 - Summary](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame5.png)
-
-
-Explanation:
-A summary of actions taken (reuse, discard, refill) is displayed for confirmation.
-Data is automatically logged for the airline and GateGroup dashboards.
-
-## Frame 6 – Forecast & Report Generation
-
-(Insert screenshot of Frame 6)
-
-![Frame 6 - Forecast](https://github.com/yourusername/TrolleyFlow2025/blob/main/assets/figma_frame6.png)
-
+![Imagen de WhatsApp 2025-10-26 a las 06 21 46_820beccc](https://github.com/user-attachments/assets/47bf9bca-1554-4914-b6c9-8ef51653a2af)
 
 Explanation:
 The system uses the forecasting API to predict upcoming bottle requirements per route and destination.
@@ -152,7 +121,7 @@ Reports are generated for future planning and cost optimization. And
 
 ## How to View the Figma Prototype
 
-You can access the interactive Figma prototype here:
+You can access the interactive Figma prototype here: https://www.figma.com/design/5oBhpS9leX2ZZ81B6QjyXs/Sin-t%C3%ADtulo?node-id=0-1&t=T2QRnGNrupw8Ioq2-1 
 
 ## Assumptions
 
