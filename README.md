@@ -64,8 +64,6 @@ cd TrolleyFlow2025
 | **Maximo Diego Gamon Simental** | Backend |
 | **Atenea López Corona** | AI Forecasting |
 
-# TrolleyFlow – System Architecture & User Manual
-
 ---
 
 # Figma Prototype – User Flow (Pick-and-Pack Journey)
