@@ -1,0 +1,201 @@
+Record_ID,Bottle_ID,Customer_Name,Customer_Code,Service_Class,Product_Name,Category,Brand,Bottle_Size,Fill_Level,Seal_Status,Cleanliness_Score,Label_Status,Bottle_Condition,Inbound_Flight,Origin,Destination,SLA_Reuse_Policy,Recommended_Action
+0001,LIQU_1001,British Airways,BA,First,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,90%,Resealed,Poor,Heavily_Damaged,Excellent,BA370,FRA,HKG,Keep all sealed bottles unopened,Discard
+0002,SPIR_1002,Emirates,EK,Business,Glenlivet Spirits 750ml,Spirits,Glenlivet,750,100%,Sealed,Excellent,Intact,Excellent,EK705,ZRH,JFK,Replace if fill <80% or label damaged,Keep
+0003,SPIR_1003,Turkish Airlines,TK,Business,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,70%,Opened,Good,Intact,Poor,TK950,IST,DXB,Refill if fill between 60?80% and reseal,Discard
+0004,WINE_1004,Emirates,EK,Business,Penfolds Wine 1000ml,Wine,Penfolds,1000,75%,Opened,Fair,Heavily_Damaged,Excellent,EK127,ZRH,IST,Replace if fill <80% or label damaged,Replace
+0005,CHAM_1005,Emirates,EK,First,Mo‰t & Chandon Champagne 750ml,Champagne,Mo‰t & Chandon,750,70%,Sealed,Excellent,Heavily_Damaged,Acceptable,EK800,IST,HKG,Replace if fill <80% or label damaged,Discard
+0006,SPIR_1006,Etihad Airways,EY,First,Johnnie Walker Spirits 1000ml,Spirits,Johnnie Walker,1000,55%,Resealed,Excellent,Intact,Acceptable,EY898,SIN,ZRH,Discard all opened bottles,Keep
+0007,CHAM_1007,British Airways,BA,Business,Veuve Clicquot Champagne 750ml,Champagne,Veuve Clicquot,750,50%,Opened,Excellent,Heavily_Damaged,Poor,BA886,FRA,SIN,Keep all sealed bottles unopened,Discard
+0008,LIQU_1008,Emirates,EK,First,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,50%,Opened,Poor,Intact,Excellent,EK897,SIN,IST,Replace if fill <80% or label damaged,Replace
+0009,CHAM_1009,British Airways,BA,Business,Taittinger Champagne 750ml,Champagne,Taittinger,750,75%,Sealed,Excellent,Intact,Excellent,BA886,JFK,FRA,Keep all sealed bottles unopened,Keep
+0010,CHAM_1010,Lufthansa,LH,First,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,95%,Sealed,Fair,Slightly_Damaged,Poor,LH440,FRA,DOH,Refill if fill <90% using incoming bottles and reseal,Discard
+0011,LIQU_1011,Qatar Airways,QR,First,Grand Marnier Liqueur 1000ml,Liqueur,Grand Marnier,1000,90%,Resealed,Excellent,Slightly_Damaged,Poor,QR663,DXB,ZRH,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0012,LIQU_1012,Etihad Airways,EY,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,80%,Opened,Excellent,Heavily_Damaged,Poor,EY430,DOH,HKG,Discard all opened bottles,Discard
+0013,SPIR_1013,Singapore Airlines,SQ,Business,Absolut Spirits 1000ml,Spirits,Absolut,1000,50%,Resealed,Excellent,Heavily_Damaged,Acceptable,SQ430,ZRH,DOH,Keep if fill >85% and resealed,Discard
+0014,LIQU_1014,Qatar Airways,QR,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,80%,Resealed,Fair,Heavily_Damaged,Excellent,QR201,JFK,HKG,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0015,SPIR_1015,Emirates,EK,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,90%,Sealed,Fair,Heavily_Damaged,Acceptable,EK980,DOH,ZRH,Replace if fill <80% or label damaged,Replace
+0016,LIQU_1016,Turkish Airlines,TK,First,Baileys Liqueur 750ml,Liqueur,Baileys,750,65%,Sealed,Good,Slightly_Damaged,Excellent,TK269,DOH,HKG,Refill if fill between 60?80% and reseal,Discard
+0017,LIQU_1017,Swiss Intl Air Lines,LX,First,Cointreau Liqueur 750ml,Liqueur,Cointreau,750,65%,Opened,Good,Heavily_Damaged,Poor,LX432,DXB,DOH,Reuse if >70% fill and sealed,Discard
+0018,SPIR_1018,Etihad Airways,EY,Business,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,85%,Resealed,Poor,Heavily_Damaged,Poor,EY101,DXB,ZRH,Discard all opened bottles,Keep
+0019,CHAM_1019,British Airways,BA,First,Piper-Heidsieck Champagne 750ml,Champagne,Piper-Heidsieck,750,75%,Opened,Poor,Slightly_Damaged,Acceptable,BA390,IST,LHR,Keep all sealed bottles unopened,Discard
+0020,CHAM_1020,Cathay Pacific,CX,First,Laurent-Perrier Champagne 1000ml,Champagne,Laurent-Perrier,1000,70%,Opened,Fair,Heavily_Damaged,Excellent,CX257,FRA,DXB,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0021,WINE_1021,Singapore Airlines,SQ,Business,Villa Maria Wine 750ml,Wine,Villa Maria,750,85%,Sealed,Poor,Intact,Poor,SQ800,LHR,CDG,Keep if fill >85% and resealed,Discard
+0022,LIQU_1022,Swiss Intl Air Lines,LX,First,Cointreau Liqueur 1000ml,Liqueur,Cointreau,1000,100%,Sealed,Poor,Intact,Poor,LX518,IST,DOH,Reuse if >70% fill and sealed,Discard
+0023,SPIR_1023,Qatar Airways,QR,First,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,50%,Resealed,Fair,Intact,Poor,QR961,HKG,CDG,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0024,SPIR_1024,Swiss Intl Air Lines,LX,Business,Johnnie Walker Spirits 1000ml,Spirits,Johnnie Walker,1000,60%,Resealed,Good,Slightly_Damaged,Acceptable,LX734,CDG,ZRH,Reuse if >70% fill and sealed,Discard
+0025,SPIR_1025,Singapore Airlines,SQ,Business,Johnnie Walker Spirits 750ml,Spirits,Johnnie Walker,750,70%,Opened,Poor,Intact,Excellent,SQ578,ZRH,IST,Keep if fill >85% and resealed,Discard
+0026,CHAM_1026,British Airways,BA,First,Laurent-Perrier Champagne 1000ml,Champagne,Laurent-Perrier,1000,70%,Sealed,Excellent,Heavily_Damaged,Excellent,BA427,DOH,LHR,Keep all sealed bottles unopened,Keep
+0027,CHAM_1027,Lufthansa,LH,Business,Taittinger Champagne 750ml,Champagne,Taittinger,750,100%,Sealed,Poor,Intact,Acceptable,LH640,LHR,IST,Refill if fill <90% using incoming bottles and reseal,Keep
+0028,WINE_1028,Qatar Airways,QR,Business,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,75%,Sealed,Poor,Heavily_Damaged,Excellent,QR444,DXB,IST,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0029,SPIR_1029,British Airways,BA,Business,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,70%,Opened,Good,Intact,Acceptable,BA555,DOH,IST,Keep all sealed bottles unopened,Discard
+0030,LIQU_1030,Cathay Pacific,CX,First,Baileys Liqueur 750ml,Liqueur,Baileys,750,70%,Sealed,Fair,Intact,Acceptable,CX903,FRA,SIN,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Keep
+0031,LIQU_1031,Lufthansa,LH,First,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,55%,Sealed,Fair,Slightly_Damaged,Acceptable,LH810,IST,DXB,Refill if fill <90% using incoming bottles and reseal,Discard
+0032,CHAM_1032,Swiss Intl Air Lines,LX,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,70%,Resealed,Good,Heavily_Damaged,Acceptable,LX332,ZRH,HKG,Reuse if >70% fill and sealed,Discard
+0033,CHAM_1033,Lufthansa,LH,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,95%,Sealed,Poor,Slightly_Damaged,Acceptable,LH118,CDG,FRA,Refill if fill <90% using incoming bottles and reseal,Keep
+0034,CHAM_1034,British Airways,BA,Business,Piper-Heidsieck Champagne 750ml,Champagne,Piper-Heidsieck,750,55%,Resealed,Poor,Slightly_Damaged,Excellent,BA874,IST,JFK,Keep all sealed bottles unopened,Discard
+0035,CHAM_1035,British Airways,BA,Business,Piper-Heidsieck Champagne 750ml,Champagne,Piper-Heidsieck,750,80%,Opened,Poor,Slightly_Damaged,Poor,BA686,FRA,ZRH,Keep all sealed bottles unopened,Discard
+0036,WINE_1036,Turkish Airlines,TK,Business,Chƒteau RiviŠre Wine 750ml,Wine,Chƒteau RiviŠre,750,70%,Sealed,Good,Heavily_Damaged,Acceptable,TK414,SIN,FRA,Refill if fill between 60?80% and reseal,Keep
+0037,SPIR_1037,Etihad Airways,EY,Business,Johnnie Walker Spirits 1000ml,Spirits,Johnnie Walker,1000,55%,Sealed,Poor,Intact,Acceptable,EY406,ZRH,ZRH,Discard all opened bottles,Keep
+0038,LIQU_1038,Air France,AF,Business,Cointreau Liqueur 1000ml,Liqueur,Cointreau,1000,95%,Opened,Poor,Intact,Acceptable,AF151,LHR,CDG,Keep all sealed bottles unopened,Discard
+0039,CHAM_1039,Etihad Airways,EY,First,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,60%,Sealed,Good,Heavily_Damaged,Acceptable,EY413,DXB,JFK,Discard all opened bottles,Discard
+0040,CHAM_1040,Turkish Airlines,TK,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,50%,Opened,Good,Heavily_Damaged,Excellent,TK808,CDG,HKG,Refill if fill between 60?80% and reseal,Discard
+0041,SPIR_1041,Turkish Airlines,TK,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,60%,Sealed,Good,Slightly_Damaged,Acceptable,TK612,DOH,IST,Refill if fill between 60?80% and reseal,Keep
+0042,LIQU_1042,Etihad Airways,EY,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,85%,Sealed,Poor,Intact,Poor,EY366,LHR,FRA,Discard all opened bottles,Keep
+0043,CHAM_1043,Air France,AF,Business,Taittinger Champagne 1000ml,Champagne,Taittinger,1000,85%,Opened,Fair,Slightly_Damaged,Poor,AF285,DOH,DOH,Keep all sealed bottles unopened,Discard
+0044,LIQU_1044,Etihad Airways,EY,First,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,75%,Resealed,Good,Intact,Acceptable,EY540,ZRH,DXB,Discard all opened bottles,Discard
+0045,LIQU_1045,Singapore Airlines,SQ,First,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,70%,Sealed,Good,Heavily_Damaged,Excellent,SQ693,FRA,CDG,Keep if fill >85% and resealed,Discard
+0046,SPIR_1046,Singapore Airlines,SQ,First,Tanqueray Spirits 1000ml,Spirits,Tanqueray,1000,75%,Resealed,Good,Slightly_Damaged,Poor,SQ689,IST,IST,Keep if fill >85% and resealed,Discard
+0047,WINE_1047,British Airways,BA,First,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,60%,Opened,Fair,Slightly_Damaged,Acceptable,BA261,CDG,LHR,Keep all sealed bottles unopened,Discard
+0048,WINE_1048,British Airways,BA,First,Villa Maria Wine 1000ml,Wine,Villa Maria,1000,70%,Sealed,Fair,Heavily_Damaged,Acceptable,BA708,CDG,HKG,Keep all sealed bottles unopened,Discard
+0049,CHAM_1049,Cathay Pacific,CX,First,Laurent-Perrier Champagne 750ml,Champagne,Laurent-Perrier,750,95%,Opened,Excellent,Slightly_Damaged,Poor,CX793,CDG,ZRH,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0050,WINE_1050,Singapore Airlines,SQ,First,Penfolds Wine 750ml,Wine,Penfolds,750,90%,Resealed,Fair,Heavily_Damaged,Excellent,SQ508,ZRH,HKG,Keep if fill >85% and resealed,Discard
+0051,CHAM_1051,Swiss Intl Air Lines,LX,Business,Piper-Heidsieck Champagne 750ml,Champagne,Piper-Heidsieck,750,70%,Opened,Poor,Heavily_Damaged,Poor,LX131,CDG,FRA,Reuse if >70% fill and sealed,Discard
+0052,WINE_1052,Emirates,EK,First,Cloudy Bay Wine 1000ml,Wine,Cloudy Bay,1000,65%,Resealed,Good,Heavily_Damaged,Poor,EK497,IST,JFK,Replace if fill <80% or label damaged,Discard
+0053,LIQU_1053,Swiss Intl Air Lines,LX,Business,Cointreau Liqueur 1000ml,Liqueur,Cointreau,1000,85%,Sealed,Fair,Heavily_Damaged,Poor,LX690,DXB,IST,Reuse if >70% fill and sealed,Keep
+0054,LIQU_1054,Swiss Intl Air Lines,LX,Business,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,70%,Sealed,Fair,Intact,Poor,LX455,IST,IST,Reuse if >70% fill and sealed,Discard
+0055,SPIR_1055,Singapore Airlines,SQ,First,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,70%,Opened,Fair,Heavily_Damaged,Acceptable,SQ314,CDG,SIN,Keep if fill >85% and resealed,Discard
+0056,CHAM_1056,Lufthansa,LH,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,65%,Sealed,Fair,Heavily_Damaged,Acceptable,LH780,ZRH,ZRH,Refill if fill <90% using incoming bottles and reseal,Keep
+0057,LIQU_1057,Etihad Airways,EY,First,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,70%,Opened,Fair,Heavily_Damaged,Excellent,EY268,LHR,DOH,Discard all opened bottles,Discard
+0058,WINE_1058,British Airways,BA,First,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,100%,Opened,Good,Intact,Poor,BA248,SIN,FRA,Keep all sealed bottles unopened,Discard
+0059,LIQU_1059,Swiss Intl Air Lines,LX,Business,Cointreau Liqueur 750ml,Liqueur,Cointreau,750,60%,Sealed,Fair,Intact,Excellent,LX687,JFK,JFK,Reuse if >70% fill and sealed,Discard
+0060,WINE_1060,Air France,AF,First,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,95%,Opened,Fair,Intact,Poor,AF123,SIN,HKG,Keep all sealed bottles unopened,Discard
+0061,LIQU_1061,Qatar Airways,QR,Business,Baileys Liqueur 750ml,Liqueur,Baileys,750,75%,Resealed,Excellent,Slightly_Damaged,Excellent,QR779,JFK,CDG,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0062,LIQU_1062,Cathay Pacific,CX,Business,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,70%,Opened,Good,Heavily_Damaged,Poor,CX454,DXB,JFK,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0063,WINE_1063,Singapore Airlines,SQ,Business,Villa Maria Wine 750ml,Wine,Villa Maria,750,80%,Resealed,Fair,Intact,Excellent,SQ533,DXB,DOH,Keep if fill >85% and resealed,Discard
+0064,CHAM_1064,Qatar Airways,QR,First,Laurent-Perrier Champagne 1000ml,Champagne,Laurent-Perrier,1000,55%,Sealed,Poor,Slightly_Damaged,Excellent,QR112,JFK,JFK,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0065,LIQU_1065,Singapore Airlines,SQ,Business,Cointreau Liqueur 1000ml,Liqueur,Cointreau,1000,85%,Opened,Poor,Slightly_Damaged,Acceptable,SQ917,HKG,CDG,Keep if fill >85% and resealed,Discard
+0066,WINE_1066,British Airways,BA,Business,Robert Mondavi Wine 1000ml,Wine,Robert Mondavi,1000,90%,Opened,Excellent,Heavily_Damaged,Acceptable,BA550,FRA,CDG,Keep all sealed bottles unopened,Discard
+0067,LIQU_1067,Turkish Airlines,TK,Business,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,60%,Opened,Good,Slightly_Damaged,Poor,TK372,JFK,IST,Refill if fill between 60?80% and reseal,Refill
+0068,SPIR_1068,Singapore Airlines,SQ,Business,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,85%,Resealed,Good,Slightly_Damaged,Acceptable,SQ449,DXB,ZRH,Keep if fill >85% and resealed,Discard
+0069,SPIR_1069,Cathay Pacific,CX,First,Glenlivet Spirits 750ml,Spirits,Glenlivet,750,60%,Resealed,Good,Heavily_Damaged,Acceptable,CX159,IST,HKG,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0070,SPIR_1070,Qatar Airways,QR,First,Absolut Spirits 1000ml,Spirits,Absolut,1000,50%,Opened,Poor,Slightly_Damaged,Poor,QR540,LHR,SIN,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0071,CHAM_1071,Emirates,EK,First,Taittinger Champagne 1000ml,Champagne,Taittinger,1000,85%,Resealed,Good,Intact,Excellent,EK694,LHR,FRA,Replace if fill <80% or label damaged,Keep
+0072,CHAM_1072,British Airways,BA,First,Taittinger Champagne 750ml,Champagne,Taittinger,750,65%,Opened,Excellent,Slightly_Damaged,Poor,BA687,FRA,HKG,Keep all sealed bottles unopened,Discard
+0073,WINE_1073,Turkish Airlines,TK,First,Robert Mondavi Wine 1000ml,Wine,Robert Mondavi,1000,75%,Resealed,Excellent,Heavily_Damaged,Acceptable,TK636,FRA,CDG,Refill if fill between 60?80% and reseal,Keep
+0074,SPIR_1074,Emirates,EK,Business,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,75%,Resealed,Poor,Intact,Acceptable,EK430,HKG,DXB,Replace if fill <80% or label damaged,Discard
+0075,CHAM_1075,Singapore Airlines,SQ,First,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,65%,Opened,Good,Intact,Excellent,SQ780,LHR,LHR,Keep if fill >85% and resealed,Discard
+0076,LIQU_1076,Emirates,EK,First,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,50%,Resealed,Fair,Slightly_Damaged,Poor,EK930,CDG,JFK,Replace if fill <80% or label damaged,Discard
+0077,LIQU_1077,Cathay Pacific,CX,Business,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,95%,Resealed,Poor,Intact,Excellent,CX122,FRA,FRA,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0078,SPIR_1078,Emirates,EK,Business,Absolut Spirits 750ml,Spirits,Absolut,750,95%,Sealed,Excellent,Heavily_Damaged,Excellent,EK976,IST,IST,Replace if fill <80% or label damaged,Replace
+0079,CHAM_1079,Lufthansa,LH,Business,Mo‰t & Chandon Champagne 750ml,Champagne,Mo‰t & Chandon,750,50%,Sealed,Excellent,Slightly_Damaged,Poor,LH989,SIN,LHR,Refill if fill <90% using incoming bottles and reseal,Keep
+0080,LIQU_1080,Cathay Pacific,CX,Business,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,80%,Sealed,Good,Heavily_Damaged,Acceptable,CX997,DOH,DOH,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0081,LIQU_1081,Etihad Airways,EY,Business,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,55%,Sealed,Poor,Heavily_Damaged,Excellent,EY645,SIN,IST,Discard all opened bottles,Keep
+0082,SPIR_1082,Etihad Airways,EY,First,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,90%,Opened,Fair,Intact,Excellent,EY144,FRA,CDG,Discard all opened bottles,Discard
+0083,WINE_1083,Singapore Airlines,SQ,Business,Cloudy Bay Wine 750ml,Wine,Cloudy Bay,750,55%,Sealed,Good,Slightly_Damaged,Excellent,SQ883,IST,FRA,Keep if fill >85% and resealed,Discard
+0084,WINE_1084,British Airways,BA,First,Chƒteau RiviŠre Wine 750ml,Wine,Chƒteau RiviŠre,750,75%,Opened,Excellent,Slightly_Damaged,Excellent,BA211,JFK,ZRH,Keep all sealed bottles unopened,Discard
+0085,LIQU_1085,Cathay Pacific,CX,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,55%,Resealed,Excellent,Heavily_Damaged,Excellent,CX100,LHR,ZRH,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0086,WINE_1086,Etihad Airways,EY,First,Cloudy Bay Wine 1000ml,Wine,Cloudy Bay,1000,80%,Resealed,Excellent,Heavily_Damaged,Acceptable,EY962,DOH,SIN,Discard all opened bottles,Keep
+0087,SPIR_1087,British Airways,BA,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,75%,Resealed,Good,Slightly_Damaged,Excellent,BA839,SIN,DXB,Keep all sealed bottles unopened,Discard
+0088,CHAM_1088,Air France,AF,Business,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,85%,Resealed,Poor,Intact,Acceptable,AF974,HKG,CDG,Keep all sealed bottles unopened,Discard
+0089,CHAM_1089,Singapore Airlines,SQ,First,Laurent-Perrier Champagne 750ml,Champagne,Laurent-Perrier,750,55%,Resealed,Fair,Intact,Acceptable,SQ923,JFK,SIN,Keep if fill >85% and resealed,Discard
+0090,WINE_1090,Air France,AF,First,Chƒteau Legrand Wine 1000ml,Wine,Chƒteau Legrand,1000,80%,Resealed,Fair,Slightly_Damaged,Poor,AF108,SIN,HKG,Keep all sealed bottles unopened,Discard
+0091,SPIR_1091,Cathay Pacific,CX,Business,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,75%,Opened,Excellent,Slightly_Damaged,Excellent,CX588,IST,DXB,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0092,LIQU_1092,Cathay Pacific,CX,First,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,85%,Opened,Excellent,Intact,Acceptable,CX841,FRA,JFK,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0093,WINE_1093,Lufthansa,LH,First,Penfolds Wine 1000ml,Wine,Penfolds,1000,65%,Opened,Excellent,Slightly_Damaged,Excellent,LH241,LHR,JFK,Refill if fill <90% using incoming bottles and reseal,Discard
+0094,CHAM_1094,Cathay Pacific,CX,First,Laurent-Perrier Champagne 750ml,Champagne,Laurent-Perrier,750,60%,Resealed,Excellent,Heavily_Damaged,Excellent,CX556,SIN,IST,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Keep
+0095,LIQU_1095,British Airways,BA,First,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,100%,Opened,Fair,Intact,Excellent,BA212,FRA,ZRH,Keep all sealed bottles unopened,Discard
+0096,LIQU_1096,Swiss Intl Air Lines,LX,Business,Disaronno Liqueur 750ml,Liqueur,Disaronno,750,50%,Opened,Fair,Intact,Acceptable,LX521,FRA,ZRH,Reuse if >70% fill and sealed,Discard
+0097,CHAM_1097,Etihad Airways,EY,First,Piper-Heidsieck Champagne 750ml,Champagne,Piper-Heidsieck,750,70%,Opened,Good,Heavily_Damaged,Excellent,EY627,DOH,LHR,Discard all opened bottles,Discard
+0098,CHAM_1098,Swiss Intl Air Lines,LX,First,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,85%,Sealed,Good,Slightly_Damaged,Acceptable,LX302,SIN,CDG,Reuse if >70% fill and sealed,Keep
+0099,CHAM_1099,Air France,AF,First,Veuve Clicquot Champagne 750ml,Champagne,Veuve Clicquot,750,100%,Resealed,Good,Heavily_Damaged,Poor,AF177,SIN,CDG,Keep all sealed bottles unopened,Discard
+0100,SPIR_1100,Lufthansa,LH,Business,Glenlivet Spirits 750ml,Spirits,Glenlivet,750,80%,Sealed,Poor,Heavily_Damaged,Excellent,LH740,ZRH,DXB,Refill if fill <90% using incoming bottles and reseal,Discard
+0101,CHAM_1101,Air France,AF,Business,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,50%,Resealed,Fair,Heavily_Damaged,Poor,AF245,LHR,HKG,Keep all sealed bottles unopened,Discard
+0102,SPIR_1102,British Airways,BA,Business,Absolut Spirits 750ml,Spirits,Absolut,750,55%,Sealed,Fair,Intact,Poor,BA662,FRA,LHR,Keep all sealed bottles unopened,Keep
+0103,LIQU_1103,Cathay Pacific,CX,First,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,55%,Opened,Fair,Heavily_Damaged,Excellent,CX815,DOH,IST,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0104,WINE_1104,Etihad Airways,EY,First,Chƒteau Legrand Wine 1000ml,Wine,Chƒteau Legrand,1000,75%,Resealed,Poor,Heavily_Damaged,Poor,EY838,ZRH,IST,Discard all opened bottles,Keep
+0105,CHAM_1105,Etihad Airways,EY,Business,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,60%,Sealed,Excellent,Intact,Acceptable,EY173,ZRH,DOH,Discard all opened bottles,Discard
+0106,SPIR_1106,Etihad Airways,EY,Business,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,50%,Opened,Fair,Slightly_Damaged,Acceptable,EY134,DOH,IST,Discard all opened bottles,Discard
+0107,CHAM_1107,Lufthansa,LH,Business,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,60%,Sealed,Excellent,Intact,Excellent,LH393,IST,DXB,Refill if fill <90% using incoming bottles and reseal,Discard
+0108,SPIR_1108,Lufthansa,LH,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,65%,Resealed,Excellent,Slightly_Damaged,Excellent,LH274,DXB,IST,Refill if fill <90% using incoming bottles and reseal,Keep
+0109,LIQU_1109,Turkish Airlines,TK,First,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,95%,Opened,Good,Heavily_Damaged,Poor,TK492,SIN,IST,Refill if fill between 60?80% and reseal,Keep
+0110,LIQU_1110,Etihad Airways,EY,Business,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,85%,Opened,Fair,Intact,Excellent,EY286,CDG,DOH,Discard all opened bottles,Discard
+0111,LIQU_1111,Qatar Airways,QR,Business,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,90%,Sealed,Fair,Slightly_Damaged,Excellent,QR241,JFK,IST,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0112,WINE_1112,Singapore Airlines,SQ,Business,Villa Maria Wine 750ml,Wine,Villa Maria,750,75%,Opened,Excellent,Intact,Acceptable,SQ435,DXB,DXB,Keep if fill >85% and resealed,Discard
+0113,LIQU_1113,Emirates,EK,First,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,85%,Opened,Poor,Slightly_Damaged,Poor,EK373,CDG,DXB,Replace if fill <80% or label damaged,Discard
+0114,SPIR_1114,Air France,AF,Business,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,60%,Sealed,Fair,Intact,Excellent,AF681,DOH,CDG,Keep all sealed bottles unopened,Keep
+0115,WINE_1115,Cathay Pacific,CX,Business,Chƒteau Legrand Wine 750ml,Wine,Chƒteau Legrand,750,65%,Resealed,Fair,Slightly_Damaged,Excellent,CX455,CDG,SIN,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Keep
+0116,SPIR_1116,Cathay Pacific,CX,First,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,95%,Sealed,Poor,Heavily_Damaged,Excellent,CX209,DXB,CDG,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0117,LIQU_1117,Air France,AF,First,Baileys Liqueur 750ml,Liqueur,Baileys,750,50%,Resealed,Poor,Slightly_Damaged,Acceptable,AF447,FRA,DXB,Keep all sealed bottles unopened,Discard
+0118,SPIR_1118,Swiss Intl Air Lines,LX,First,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,90%,Sealed,Poor,Slightly_Damaged,Excellent,LX460,SIN,SIN,Reuse if >70% fill and sealed,Keep
+0119,SPIR_1119,Cathay Pacific,CX,First,Tanqueray Spirits 1000ml,Spirits,Tanqueray,1000,70%,Resealed,Excellent,Intact,Poor,CX760,DOH,DOH,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0120,LIQU_1120,Turkish Airlines,TK,Business,Baileys Liqueur 750ml,Liqueur,Baileys,750,50%,Opened,Good,Slightly_Damaged,Acceptable,TK220,HKG,FRA,Refill if fill between 60?80% and reseal,Discard
+0121,WINE_1121,Cathay Pacific,CX,Business,Penfolds Wine 1000ml,Wine,Penfolds,1000,50%,Sealed,Good,Slightly_Damaged,Poor,CX140,ZRH,DXB,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0122,LIQU_1122,Turkish Airlines,TK,First,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,90%,Resealed,Excellent,Heavily_Damaged,Excellent,TK201,JFK,DOH,Refill if fill between 60?80% and reseal,Discard
+0123,CHAM_1123,Emirates,EK,First,Taittinger Champagne 1000ml,Champagne,Taittinger,1000,80%,Opened,Excellent,Heavily_Damaged,Acceptable,EK901,SIN,HKG,Replace if fill <80% or label damaged,Discard
+0124,CHAM_1124,Air France,AF,Business,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,55%,Opened,Excellent,Slightly_Damaged,Excellent,AF766,DXB,DOH,Keep all sealed bottles unopened,Discard
+0125,WINE_1125,Lufthansa,LH,First,Villa Maria Wine 750ml,Wine,Villa Maria,750,60%,Sealed,Poor,Slightly_Damaged,Acceptable,LH957,HKG,DOH,Refill if fill <90% using incoming bottles and reseal,Discard
+0126,CHAM_1126,Turkish Airlines,TK,Business,Taittinger Champagne 750ml,Champagne,Taittinger,750,55%,Resealed,Fair,Intact,Excellent,TK874,IST,SIN,Refill if fill between 60?80% and reseal,Discard
+0127,LIQU_1127,Qatar Airways,QR,First,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,55%,Resealed,Excellent,Slightly_Damaged,Poor,QR863,DXB,CDG,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0128,WINE_1128,Lufthansa,LH,Business,Chƒteau Legrand Wine 1000ml,Wine,Chƒteau Legrand,1000,60%,Sealed,Fair,Intact,Acceptable,LH777,IST,DOH,Refill if fill <90% using incoming bottles and reseal,Discard
+0129,SPIR_1129,Emirates,EK,First,Glenlivet Spirits 750ml,Spirits,Glenlivet,750,95%,Sealed,Excellent,Heavily_Damaged,Poor,EK996,SIN,FRA,Replace if fill <80% or label damaged,Replace
+0130,LIQU_1130,Turkish Airlines,TK,First,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,85%,Resealed,Fair,Intact,Poor,TK318,HKG,JFK,Refill if fill between 60?80% and reseal,Discard
+0131,WINE_1131,Turkish Airlines,TK,First,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,85%,Resealed,Good,Heavily_Damaged,Acceptable,TK821,HKG,DOH,Refill if fill between 60?80% and reseal,Discard
+0132,LIQU_1132,Air France,AF,Business,Grand Marnier Liqueur 1000ml,Liqueur,Grand Marnier,1000,85%,Opened,Excellent,Heavily_Damaged,Poor,AF327,DOH,ZRH,Keep all sealed bottles unopened,Discard
+0133,LIQU_1133,Air France,AF,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,75%,Resealed,Excellent,Intact,Acceptable,AF100,CDG,FRA,Keep all sealed bottles unopened,Discard
+0134,SPIR_1134,British Airways,BA,First,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,60%,Opened,Poor,Intact,Acceptable,BA856,HKG,JFK,Keep all sealed bottles unopened,Discard
+0135,WINE_1135,Etihad Airways,EY,Business,Chƒteau RiviŠre Wine 750ml,Wine,Chƒteau RiviŠre,750,90%,Resealed,Excellent,Heavily_Damaged,Acceptable,EY561,CDG,IST,Discard all opened bottles,Keep
+0136,LIQU_1136,Swiss Intl Air Lines,LX,Business,Baileys Liqueur 750ml,Liqueur,Baileys,750,75%,Opened,Excellent,Heavily_Damaged,Excellent,LX927,DOH,FRA,Reuse if >70% fill and sealed,Discard
+0137,LIQU_1137,Singapore Airlines,SQ,First,Kahl£a Liqueur 1000ml,Liqueur,Kahl£a,1000,50%,Resealed,Excellent,Heavily_Damaged,Acceptable,SQ155,DOH,LHR,Keep if fill >85% and resealed,Discard
+0138,SPIR_1138,Turkish Airlines,TK,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,100%,Sealed,Poor,Slightly_Damaged,Acceptable,TK507,IST,JFK,Refill if fill between 60?80% and reseal,Discard
+0139,WINE_1139,Qatar Airways,QR,First,Cloudy Bay Wine 750ml,Wine,Cloudy Bay,750,50%,Opened,Good,Heavily_Damaged,Acceptable,QR175,CDG,FRA,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0140,WINE_1140,Singapore Airlines,SQ,First,Chƒteau RiviŠre Wine 750ml,Wine,Chƒteau RiviŠre,750,75%,Resealed,Fair,Slightly_Damaged,Acceptable,SQ788,ZRH,ZRH,Keep if fill >85% and resealed,Discard
+0141,CHAM_1141,British Airways,BA,First,Veuve Clicquot Champagne 750ml,Champagne,Veuve Clicquot,750,85%,Resealed,Good,Slightly_Damaged,Acceptable,BA894,HKG,HKG,Keep all sealed bottles unopened,Discard
+0142,CHAM_1142,Swiss Intl Air Lines,LX,Business,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,60%,Resealed,Fair,Slightly_Damaged,Acceptable,LX319,DXB,IST,Reuse if >70% fill and sealed,Discard
+0143,CHAM_1143,Air France,AF,Business,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,70%,Resealed,Excellent,Intact,Excellent,AF279,ZRH,ZRH,Keep all sealed bottles unopened,Discard
+0144,LIQU_1144,Turkish Airlines,TK,Business,Cointreau Liqueur 750ml,Liqueur,Cointreau,750,85%,Resealed,Excellent,Heavily_Damaged,Acceptable,TK119,HKG,ZRH,Refill if fill between 60?80% and reseal,Keep
+0145,WINE_1145,Etihad Airways,EY,First,Penfolds Wine 1000ml,Wine,Penfolds,1000,90%,Sealed,Fair,Slightly_Damaged,Acceptable,EY401,ZRH,DXB,Discard all opened bottles,Discard
+0146,CHAM_1146,Air France,AF,First,Taittinger Champagne 1000ml,Champagne,Taittinger,1000,85%,Sealed,Good,Heavily_Damaged,Acceptable,AF533,SIN,JFK,Keep all sealed bottles unopened,Discard
+0147,WINE_1147,Cathay Pacific,CX,First,Penfolds Wine 1000ml,Wine,Penfolds,1000,85%,Resealed,Fair,Intact,Excellent,CX450,HKG,LHR,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0148,CHAM_1148,Swiss Intl Air Lines,LX,Business,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,70%,Resealed,Fair,Intact,Acceptable,LX521,DXB,IST,Reuse if >70% fill and sealed,Discard
+0149,CHAM_1149,Emirates,EK,First,Veuve Clicquot Champagne 750ml,Champagne,Veuve Clicquot,750,90%,Opened,Good,Intact,Excellent,EK828,CDG,CDG,Replace if fill <80% or label damaged,Keep
+0150,LIQU_1150,British Airways,BA,Business,Baileys Liqueur 750ml,Liqueur,Baileys,750,50%,Sealed,Poor,Slightly_Damaged,Poor,BA712,DOH,DOH,Keep all sealed bottles unopened,Discard
+0151,LIQU_1151,Turkish Airlines,TK,Business,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,80%,Opened,Excellent,Slightly_Damaged,Acceptable,TK331,JFK,HKG,Refill if fill between 60?80% and reseal,Discard
+0152,CHAM_1152,Emirates,EK,First,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,75%,Sealed,Good,Heavily_Damaged,Acceptable,EK695,DOH,FRA,Replace if fill <80% or label damaged,Replace
+0153,WINE_1153,Lufthansa,LH,First,Penfolds Wine 1000ml,Wine,Penfolds,1000,75%,Resealed,Good,Heavily_Damaged,Poor,LH402,ZRH,CDG,Refill if fill <90% using incoming bottles and reseal,Keep
+0154,SPIR_1154,Turkish Airlines,TK,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,85%,Resealed,Good,Slightly_Damaged,Acceptable,TK195,JFK,DXB,Refill if fill between 60?80% and reseal,Discard
+0155,CHAM_1155,Singapore Airlines,SQ,Business,Piper-Heidsieck Champagne 1000ml,Champagne,Piper-Heidsieck,1000,50%,Sealed,Good,Intact,Excellent,SQ762,JFK,SIN,Keep if fill >85% and resealed,Discard
+0156,SPIR_1156,Cathay Pacific,CX,First,Bombay Sapphire Spirits 1000ml,Spirits,Bombay Sapphire,1000,50%,Sealed,Poor,Intact,Poor,CX312,ZRH,ZRH,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0157,WINE_1157,Lufthansa,LH,First,Cloudy Bay Wine 1000ml,Wine,Cloudy Bay,1000,95%,Sealed,Fair,Intact,Excellent,LH300,ZRH,DXB,Refill if fill <90% using incoming bottles and reseal,Discard
+0158,WINE_1158,Air France,AF,Business,Villa Maria Wine 750ml,Wine,Villa Maria,750,60%,Sealed,Good,Slightly_Damaged,Excellent,AF392,DXB,IST,Keep all sealed bottles unopened,Keep
+0159,WINE_1159,Etihad Airways,EY,First,Penfolds Wine 750ml,Wine,Penfolds,750,70%,Sealed,Good,Slightly_Damaged,Excellent,EY751,LHR,ZRH,Discard all opened bottles,Keep
+0160,LIQU_1160,Etihad Airways,EY,First,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,90%,Opened,Poor,Intact,Excellent,EY292,FRA,HKG,Discard all opened bottles,Discard
+0161,CHAM_1161,Qatar Airways,QR,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,60%,Sealed,Fair,Heavily_Damaged,Poor,QR253,FRA,IST,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0162,SPIR_1162,Etihad Airways,EY,Business,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,85%,Resealed,Fair,Slightly_Damaged,Poor,EY183,IST,CDG,Discard all opened bottles,Keep
+0163,LIQU_1163,Lufthansa,LH,Business,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,80%,Opened,Excellent,Intact,Acceptable,LH122,JFK,JFK,Refill if fill <90% using incoming bottles and reseal,Discard
+0164,SPIR_1164,Cathay Pacific,CX,Business,Johnnie Walker Spirits 750ml,Spirits,Johnnie Walker,750,95%,Resealed,Fair,Intact,Poor,CX241,ZRH,SIN,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0165,SPIR_1165,Emirates,EK,Business,Absolut Spirits 750ml,Spirits,Absolut,750,90%,Opened,Excellent,Slightly_Damaged,Acceptable,EK880,ZRH,JFK,Replace if fill <80% or label damaged,Discard
+0166,SPIR_1166,Swiss Intl Air Lines,LX,Business,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,75%,Sealed,Fair,Slightly_Damaged,Excellent,LX867,IST,JFK,Reuse if >70% fill and sealed,Discard
+0167,SPIR_1167,British Airways,BA,Business,Tanqueray Spirits 1000ml,Spirits,Tanqueray,1000,70%,Sealed,Poor,Intact,Excellent,BA627,ZRH,LHR,Keep all sealed bottles unopened,Keep
+0168,CHAM_1168,Swiss Intl Air Lines,LX,First,Mo‰t & Chandon Champagne 1000ml,Champagne,Mo‰t & Chandon,1000,80%,Resealed,Poor,Intact,Acceptable,LX995,JFK,SIN,Reuse if >70% fill and sealed,Discard
+0169,LIQU_1169,Emirates,EK,First,Kahl£a Liqueur 750ml,Liqueur,Kahl£a,750,65%,Opened,Poor,Slightly_Damaged,Poor,EK399,FRA,CDG,Replace if fill <80% or label damaged,Replace
+0170,LIQU_1170,Turkish Airlines,TK,Business,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,100%,Opened,Good,Heavily_Damaged,Acceptable,TK275,HKG,SIN,Refill if fill between 60?80% and reseal,Keep
+0171,SPIR_1171,Qatar Airways,QR,First,Absolut Spirits 750ml,Spirits,Absolut,750,60%,Resealed,Fair,Slightly_Damaged,Excellent,QR961,FRA,HKG,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0172,SPIR_1172,Air France,AF,First,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,85%,Opened,Poor,Slightly_Damaged,Poor,AF307,DOH,SIN,Keep all sealed bottles unopened,Discard
+0173,WINE_1173,Lufthansa,LH,Business,Chƒteau RiviŠre Wine 1000ml,Wine,Chƒteau RiviŠre,1000,65%,Sealed,Fair,Slightly_Damaged,Poor,LH439,CDG,JFK,Refill if fill <90% using incoming bottles and reseal,Discard
+0174,WINE_1174,Swiss Intl Air Lines,LX,Business,Penfolds Wine 750ml,Wine,Penfolds,750,95%,Sealed,Poor,Intact,Acceptable,LX714,FRA,CDG,Reuse if >70% fill and sealed,Keep
+0175,CHAM_1175,Air France,AF,Business,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,60%,Opened,Poor,Intact,Acceptable,AF302,SIN,DXB,Keep all sealed bottles unopened,Discard
+0176,SPIR_1176,Etihad Airways,EY,First,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,85%,Resealed,Good,Slightly_Damaged,Acceptable,EY353,HKG,DXB,Discard all opened bottles,Discard
+0177,LIQU_1177,Cathay Pacific,CX,First,Disaronno Liqueur 1000ml,Liqueur,Disaronno,1000,100%,Sealed,Excellent,Intact,Excellent,CX981,DXB,HKG,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Keep
+0178,WINE_1178,Swiss Intl Air Lines,LX,Business,Penfolds Wine 750ml,Wine,Penfolds,750,100%,Resealed,Poor,Heavily_Damaged,Poor,LX285,DXB,FRA,Reuse if >70% fill and sealed,Discard
+0179,SPIR_1179,Swiss Intl Air Lines,LX,First,Glenlivet Spirits 1000ml,Spirits,Glenlivet,1000,65%,Resealed,Poor,Slightly_Damaged,Acceptable,LX173,JFK,DOH,Reuse if >70% fill and sealed,Discard
+0180,SPIR_1180,Cathay Pacific,CX,Business,Bombay Sapphire Spirits 750ml,Spirits,Bombay Sapphire,750,95%,Sealed,Fair,Intact,Acceptable,CX652,ZRH,IST,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0181,LIQU_1181,Etihad Airways,EY,First,Baileys Liqueur 750ml,Liqueur,Baileys,750,90%,Opened,Poor,Intact,Poor,EY971,SIN,HKG,Discard all opened bottles,Discard
+0182,CHAM_1182,Etihad Airways,EY,First,Veuve Clicquot Champagne 1000ml,Champagne,Veuve Clicquot,1000,100%,Sealed,Good,Heavily_Damaged,Acceptable,EY506,DXB,ZRH,Discard all opened bottles,Keep
+0183,LIQU_1183,Turkish Airlines,TK,Business,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,85%,Resealed,Poor,Slightly_Damaged,Excellent,TK446,JFK,SIN,Refill if fill between 60?80% and reseal,Keep
+0184,SPIR_1184,Singapore Airlines,SQ,Business,Tanqueray Spirits 750ml,Spirits,Tanqueray,750,85%,Sealed,Poor,Slightly_Damaged,Excellent,SQ232,DXB,JFK,Keep if fill >85% and resealed,Discard
+0185,WINE_1185,British Airways,BA,Business,Chƒteau RiviŠre Wine 750ml,Wine,Chƒteau RiviŠre,750,80%,Sealed,Poor,Heavily_Damaged,Acceptable,BA581,ZRH,DOH,Keep all sealed bottles unopened,Discard
+0186,LIQU_1186,Singapore Airlines,SQ,Business,Grand Marnier Liqueur 750ml,Liqueur,Grand Marnier,750,80%,Resealed,Good,Slightly_Damaged,Excellent,SQ928,SIN,ZRH,Keep if fill >85% and resealed,Discard
+0187,LIQU_1187,Qatar Airways,QR,Business,Cointreau Liqueur 750ml,Liqueur,Cointreau,750,70%,Opened,Excellent,Heavily_Damaged,Excellent,QR329,ZRH,DXB,"If fill 100% but opened, add 1 additional sealed bottle",Discard
+0188,WINE_1188,Swiss Intl Air Lines,LX,First,Chƒteau Legrand Wine 750ml,Wine,Chƒteau Legrand,750,80%,Resealed,Poor,Heavily_Damaged,Acceptable,LX195,SIN,DXB,Reuse if >70% fill and sealed,Discard
+0189,WINE_1189,Air France,AF,Business,Robert Mondavi Wine 750ml,Wine,Robert Mondavi,750,75%,Opened,Excellent,Intact,Excellent,AF722,LHR,JFK,Keep all sealed bottles unopened,Discard
+0190,SPIR_1190,Etihad Airways,EY,First,Glenlivet Spirits 750ml,Spirits,Glenlivet,750,65%,Resealed,Fair,Heavily_Damaged,Poor,EY673,DXB,JFK,Discard all opened bottles,Discard
+0191,LIQU_1191,Etihad Airways,EY,First,Baileys Liqueur 750ml,Liqueur,Baileys,750,100%,Resealed,Good,Intact,Excellent,EY784,ZRH,SIN,Discard all opened bottles,Keep
+0192,WINE_1192,Swiss Intl Air Lines,LX,First,Penfolds Wine 750ml,Wine,Penfolds,750,65%,Sealed,Fair,Slightly_Damaged,Acceptable,LX488,SIN,HKG,Reuse if >70% fill and sealed,Discard
+0193,CHAM_1193,British Airways,BA,Business,Laurent-Perrier Champagne 1000ml,Champagne,Laurent-Perrier,1000,95%,Resealed,Good,Heavily_Damaged,Excellent,BA389,LHR,LHR,Keep all sealed bottles unopened,Discard
+0194,LIQU_1194,Etihad Airways,EY,Business,Baileys Liqueur 1000ml,Liqueur,Baileys,1000,60%,Resealed,Poor,Slightly_Damaged,Poor,EY385,DOH,CDG,Discard all opened bottles,Keep
+0195,CHAM_1195,Etihad Airways,EY,Business,Taittinger Champagne 1000ml,Champagne,Taittinger,1000,70%,Sealed,Excellent,Heavily_Damaged,Excellent,EY308,DOH,ZRH,Discard all opened bottles,Keep
+0196,WINE_1196,Cathay Pacific,CX,Business,Chƒteau RiviŠre Wine 1000ml,Wine,Chƒteau RiviŠre,1000,95%,Opened,Good,Slightly_Damaged,Acceptable,CX828,JFK,CDG,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
+0197,WINE_1197,Singapore Airlines,SQ,Business,Villa Maria Wine 750ml,Wine,Villa Maria,750,60%,Opened,Good,Slightly_Damaged,Acceptable,SQ249,FRA,ZRH,Keep if fill >85% and resealed,Discard
+0198,WINE_1198,Lufthansa,LH,First,Penfolds Wine 1000ml,Wine,Penfolds,1000,60%,Opened,Excellent,Intact,Poor,LH173,SIN,DXB,Refill if fill <90% using incoming bottles and reseal,Discard
+0199,CHAM_1199,British Airways,BA,First,Taittinger Champagne 750ml,Champagne,Taittinger,750,75%,Resealed,Poor,Intact,Poor,BA545,CDG,ZRH,Keep all sealed bottles unopened,Discard
+0200,LIQU_1200,Cathay Pacific,CX,First,Cointreau Liqueur 750ml,Liqueur,Cointreau,750,75%,Opened,Poor,Heavily_Damaged,Poor,CX132,ZRH,HKG,"If fill between 60?80%, add 1 additional sealed bottle for next flight",Discard
